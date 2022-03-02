@@ -16,5 +16,13 @@ namespace GitHub01
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double a = int.Parse(textBox1.Text);
+            double b = int.Parse(textBox2.Text);
+            double vysledek = a + b;
+            MessageBox.Show("Vysledek sčítání je: " + vysledek);
+        }
     }
 }
