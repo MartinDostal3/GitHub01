@@ -24,10 +24,12 @@ namespace GitHub01
             double vysledek = a + b;
             double rozdil = a - b;
             double soucin = a * b;
+            double podil = a / b;
             
             MessageBox.Show("Vysledek sčítání je: " + vysledek);
             MessageBox.Show("Vysledek odčítání je: " + rozdil);
             MessageBox.Show("Vysledek násobení je: " + soucin);
+            MessageBox.Show("Vysledek dělení je: " + podil);
         }
     }
 }
