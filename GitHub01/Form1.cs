@@ -22,7 +22,9 @@ namespace GitHub01
             double a = int.Parse(textBox1.Text);
             double b = int.Parse(textBox2.Text);
             double vysledek = a + b;
+            double rozdil = a - b;
             MessageBox.Show("Vysledek sčítání je: " + vysledek);
+            MessageBox.Show("Vysledek odčítání je: " + rozdil);
         }
     }
 }
